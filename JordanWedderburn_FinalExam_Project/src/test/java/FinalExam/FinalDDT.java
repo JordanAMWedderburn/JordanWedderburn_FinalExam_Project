@@ -205,7 +205,6 @@ public class FinalDDT  {
 			}try {
 				FileOutputStream outPutStream = new FileOutputStream (file);
 				 wb.write(outPutStream);
-				 //wb.close();
 			  }
 			  catch (IOException e) {
 			  e.printStackTrace();
@@ -248,7 +247,6 @@ public class FinalDDT  {
 			}try {
 				FileOutputStream outPutStream = new FileOutputStream (file);
 				 wb.write(outPutStream);
-				 //wb.close();
 			  }
 			  catch (IOException e) {
 			  e.printStackTrace();
